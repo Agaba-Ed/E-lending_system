@@ -10,7 +10,7 @@
          <div >
         <div class="font-medium text-600">
             <i class="fa-regular fa-bell"></i>
-        <strong>Hello there!</strong> You forgot something
+        <strong>Hello!</strong> You forgot something
         </div>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
