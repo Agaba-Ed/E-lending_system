@@ -16,7 +16,6 @@ class LoanApplication extends Model
         'payment_mode_id',
         'mobile_money_no',
         'no_of_months',
-        'mobile_money_name',
         'approved',
         'loan_number',
     ];

@@ -21,7 +21,6 @@ class CreateLoanApplicationsTable extends Migration
             $table->string('loan_amount');
             $table->string('payment_mode');
             $table->string('mobile_money_number');
-            $table->string('mobile_monney_name');
             $table->string('loan_number');
             $table->integer('approved');
             $table->string('due_date');

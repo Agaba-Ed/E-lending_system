@@ -29,7 +29,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('applyforloan/{id}', [App\Http\Controllers\LoanController::class, 'applyforloan'])->name('applyforloan');
 
                           
-Route::post('applyforloan/{id}', [App\Http\Controllers\LoanController::class, 'applyforloan'])->name('applyforloan');
+Route::post('submitapplication/{id}', [App\Http\Controllers\LoanController::class, 'submitapplication'])->name('submitapplication');
 
 
 Route::get('loanprofile/{id}', [App\Http\Controllers\LoanController::class, 'loanprofile'])->name('loanprofile');
